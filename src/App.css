@@ -1,3 +1,18 @@
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.no-results {
+  text-align: center;
+  color: #999;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
 .counter {
   font-size: 16px;
   padding: 5px 10px;
