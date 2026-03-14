@@ -1,0 +1,43 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin: 0 0 8px 0;
+  color: #333;
+}
+
+.card h4 {
+  margin: 0 0 12px 0;
+  color: #666;
+}
+
+.card p {
+  margin: 0 0 16px 0;
+  color: #777;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.like-button {
+  background: none;
+  border: 1px solid #ff6b6b;
+  border-radius: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+  color: #ff6b6b;
+  transition: all 0.3s;
+}
+
+.like-button:hover {
+  background: #ff6b6b;
+  color: white;
+}
